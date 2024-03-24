@@ -15,7 +15,7 @@ model = joblib.load("../model/bangalore_home_prices_model.pickle")
 def main():
     st.title("House Price Predictor")
 
-    st.write("We're excited to have you here. This tool will help you estimate the price of your dream home based on key features.")
+    st.write("This tool will help you estimate the price of your home based on key features.")
 
     # Display feature selection options
     selected_features = select_features(data_columns)
